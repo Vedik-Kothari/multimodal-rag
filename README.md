@@ -21,7 +21,7 @@
 | ⚡ **Fast** | 2-min video processed in ~3-5 seconds (parallel Vision API calls) |
 | 📡 **Live Progress** | Real-time progress bar shows exactly what the AI is doing |
 | 🗑️ **Zero Storage** | Rolling cache: only the latest video is kept locally |
-| ☁️ **Cloud DB** | Qdrant Cloud stores all vector memory — nothing local |
+| ☁️ **Cloud DB** | Qdrant Cloud stores all vector memory |
 
 ---
 
