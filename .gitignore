@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+venv/
+env/
+.venv/
+
+# Backend secrets
+backend/.env
+backend/startup.log
+backend/backend_crash.log
+backend/uploads/
+backend/frames/
+backend/qdrant_data/
+
+# Node
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+frontend/.env*.local
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Video files
+*.mp4
+*.mkv
+*.webm
+*.avi
+*.mov
