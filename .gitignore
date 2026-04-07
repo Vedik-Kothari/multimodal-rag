@@ -17,6 +17,7 @@ backend/startup.log
 backend/backend_crash.log
 backend/uploads/
 backend/frames/
+backend/metadata/
 backend/qdrant_data/
 
 # Node
@@ -25,6 +26,7 @@ frontend/.next/
 frontend/out/
 frontend/.env.local
 frontend/.env*.local
+frontend/.vercel/
 
 # OS
 .DS_Store
@@ -36,6 +38,10 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+# Local runtime files
+*.pid
+*.seed
 
 # Video files
 *.mp4
